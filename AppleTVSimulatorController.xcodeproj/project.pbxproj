@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354DBF541BC1717F0028827B /* Press.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354DBF531BC1717F0028827B /* Press.swift */; };
+		354DBF581BC299400028827B /* ButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354DBF571BC299400028827B /* ButtonState.swift */; };
+		354DBF5A1BC29E920028827B /* ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354DBF591BC29E920028827B /* ButtonTests.swift */; };
+		354DBF5C1BC29F0D0028827B /* AxisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354DBF5B1BC29F0D0028827B /* AxisTests.swift */; };
+		355C94E41BC329EE006C16BE /* SimulatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C94DF1BC329EE006C16BE /* SimulatorController.swift */; };
+		355C94E51BC329EE006C16BE /* SimulatorControllerAxisInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C94E01BC329EE006C16BE /* SimulatorControllerAxisInput.swift */; };
+		355C94E61BC329EE006C16BE /* SimulatorControllerButtonInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C94E11BC329EE006C16BE /* SimulatorControllerButtonInput.swift */; };
+		355C94E71BC329EE006C16BE /* SimulatorControllerDirectionPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C94E21BC329EE006C16BE /* SimulatorControllerDirectionPad.swift */; };
+		355C94E81BC329EE006C16BE /* SimulatorMicroGamepad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C94E31BC329EE006C16BE /* SimulatorMicroGamepad.swift */; };
+		359D54BA1BC31EFE00496BED /* GamepadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D54B91BC31EFE00496BED /* GamepadTests.swift */; };
 		35B1989A1BBEF47E00D3010A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B198991BBEF47E00D3010A /* AppDelegate.swift */; };
 		35B1989C1BBEF47E00D3010A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35B1989B1BBEF47E00D3010A /* GameScene.sks */; };
 		35B1989E1BBEF47E00D3010A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B1989D1BBEF47E00D3010A /* GameScene.swift */; };
@@ -14,10 +24,33 @@
 		35B198A21BBEF47E00D3010A /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B198A11BBEF47E00D3010A /* Game.xcassets */; };
 		35B198A51BBEF47E00D3010A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B198A31BBEF47E00D3010A /* Main.storyboard */; };
 		35B198A71BBEF47E00D3010A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B198A61BBEF47E00D3010A /* Assets.xcassets */; };
-		35B198AF1BBEF4D200D3010A /* SimulatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B198AE1BBEF4D200D3010A /* SimulatorController.swift */; };
+		35B30F2F1BC2C27C00F732AC /* PanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B30F2E1BC2C27C00F732AC /* PanGestureRecognizer.swift */; };
+		35B30F311BC2C97B00F732AC /* DpadButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B30F301BC2C97B00F732AC /* DpadButtons.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		354DBF4E1BC16AD50028827B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B1988E1BBEF47E00D3010A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B198951BBEF47E00D3010A;
+			remoteInfo = AppleTVSimulatorController;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		354DBF491BC16AD50028827B /* AppleTVSimulatorControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleTVSimulatorControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		354DBF4D1BC16AD50028827B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354DBF531BC1717F0028827B /* Press.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Press.swift; sourceTree = "<group>"; };
+		354DBF571BC299400028827B /* ButtonState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonState.swift; sourceTree = "<group>"; };
+		354DBF591BC29E920028827B /* ButtonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTests.swift; sourceTree = "<group>"; };
+		354DBF5B1BC29F0D0028827B /* AxisTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisTests.swift; sourceTree = "<group>"; };
+		355C94DF1BC329EE006C16BE /* SimulatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorController.swift; sourceTree = "<group>"; };
+		355C94E01BC329EE006C16BE /* SimulatorControllerAxisInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorControllerAxisInput.swift; sourceTree = "<group>"; };
+		355C94E11BC329EE006C16BE /* SimulatorControllerButtonInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorControllerButtonInput.swift; sourceTree = "<group>"; };
+		355C94E21BC329EE006C16BE /* SimulatorControllerDirectionPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorControllerDirectionPad.swift; sourceTree = "<group>"; };
+		355C94E31BC329EE006C16BE /* SimulatorMicroGamepad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorMicroGamepad.swift; sourceTree = "<group>"; };
+		359D54B91BC31EFE00496BED /* GamepadTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamepadTests.swift; sourceTree = "<group>"; };
 		35B198961BBEF47E00D3010A /* AppleTVSimulatorController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTVSimulatorController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B198991BBEF47E00D3010A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35B1989B1BBEF47E00D3010A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -27,10 +60,18 @@
 		35B198A41BBEF47E00D3010A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35B198A61BBEF47E00D3010A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35B198A81BBEF47E00D3010A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35B198AE1BBEF4D200D3010A /* SimulatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorController.swift; sourceTree = "<group>"; };
+		35B30F2E1BC2C27C00F732AC /* PanGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanGestureRecognizer.swift; sourceTree = "<group>"; };
+		35B30F301BC2C97B00F732AC /* DpadButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DpadButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		354DBF461BC16AD50028827B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35B198931BBEF47E00D3010A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +82,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		354DBF4A1BC16AD50028827B /* AppleTVSimulatorControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				354DBF4D1BC16AD50028827B /* Info.plist */,
+				354DBF531BC1717F0028827B /* Press.swift */,
+				354DBF571BC299400028827B /* ButtonState.swift */,
+				354DBF591BC29E920028827B /* ButtonTests.swift */,
+				354DBF5B1BC29F0D0028827B /* AxisTests.swift */,
+				35B30F2E1BC2C27C00F732AC /* PanGestureRecognizer.swift */,
+				35B30F301BC2C97B00F732AC /* DpadButtons.swift */,
+				359D54B91BC31EFE00496BED /* GamepadTests.swift */,
+			);
+			path = AppleTVSimulatorControllerTests;
+			sourceTree = "<group>";
+		};
+		355C94DE1BC329BC006C16BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				355C94DF1BC329EE006C16BE /* SimulatorController.swift */,
+				355C94E01BC329EE006C16BE /* SimulatorControllerAxisInput.swift */,
+				355C94E11BC329EE006C16BE /* SimulatorControllerButtonInput.swift */,
+				355C94E21BC329EE006C16BE /* SimulatorControllerDirectionPad.swift */,
+				355C94E31BC329EE006C16BE /* SimulatorMicroGamepad.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		35B1988D1BBEF47E00D3010A = {
 			isa = PBXGroup;
 			children = (
 				35B198981BBEF47E00D3010A /* AppleTVSimulatorController */,
+				354DBF4A1BC16AD50028827B /* AppleTVSimulatorControllerTests */,
 				35B198971BBEF47E00D3010A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				35B198961BBEF47E00D3010A /* AppleTVSimulatorController.app */,
+				354DBF491BC16AD50028827B /* AppleTVSimulatorControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,7 +130,7 @@
 		35B198981BBEF47E00D3010A /* AppleTVSimulatorController */ = {
 			isa = PBXGroup;
 			children = (
-				35B198AE1BBEF4D200D3010A /* SimulatorController.swift */,
+				355C94DE1BC329BC006C16BE /* Controller */,
 				35B198991BBEF47E00D3010A /* AppDelegate.swift */,
 				35B1989B1BBEF47E00D3010A /* GameScene.sks */,
 				35B1989D1BBEF47E00D3010A /* GameScene.swift */,
@@ -76,6 +146,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		354DBF481BC16AD50028827B /* AppleTVSimulatorControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354DBF521BC16AD50028827B /* Build configuration list for PBXNativeTarget "AppleTVSimulatorControllerTests" */;
+			buildPhases = (
+				354DBF451BC16AD50028827B /* Sources */,
+				354DBF461BC16AD50028827B /* Frameworks */,
+				354DBF471BC16AD50028827B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354DBF4F1BC16AD50028827B /* PBXTargetDependency */,
+			);
+			name = AppleTVSimulatorControllerTests;
+			productName = AppleTVSimulatorControllerTests;
+			productReference = 354DBF491BC16AD50028827B /* AppleTVSimulatorControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		35B198951BBEF47E00D3010A /* AppleTVSimulatorController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35B198AB1BBEF47E00D3010A /* Build configuration list for PBXNativeTarget "AppleTVSimulatorController" */;
@@ -102,6 +190,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Chris Gulley";
 				TargetAttributes = {
+					354DBF481BC16AD50028827B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 35B198951BBEF47E00D3010A;
+					};
 					35B198951BBEF47E00D3010A = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -121,11 +213,19 @@
 			projectRoot = "";
 			targets = (
 				35B198951BBEF47E00D3010A /* AppleTVSimulatorController */,
+				354DBF481BC16AD50028827B /* AppleTVSimulatorControllerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		354DBF471BC16AD50028827B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35B198941BBEF47E00D3010A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,18 +240,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		354DBF451BC16AD50028827B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B30F311BC2C97B00F732AC /* DpadButtons.swift in Sources */,
+				354DBF541BC1717F0028827B /* Press.swift in Sources */,
+				354DBF581BC299400028827B /* ButtonState.swift in Sources */,
+				35B30F2F1BC2C27C00F732AC /* PanGestureRecognizer.swift in Sources */,
+				354DBF5C1BC29F0D0028827B /* AxisTests.swift in Sources */,
+				354DBF5A1BC29E920028827B /* ButtonTests.swift in Sources */,
+				359D54BA1BC31EFE00496BED /* GamepadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35B198921BBEF47E00D3010A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B198AF1BBEF4D200D3010A /* SimulatorController.swift in Sources */,
+				355C94E51BC329EE006C16BE /* SimulatorControllerAxisInput.swift in Sources */,
+				355C94E41BC329EE006C16BE /* SimulatorController.swift in Sources */,
 				35B1989E1BBEF47E00D3010A /* GameScene.swift in Sources */,
 				35B198A01BBEF47E00D3010A /* GameViewController.swift in Sources */,
+				355C94E71BC329EE006C16BE /* SimulatorControllerDirectionPad.swift in Sources */,
 				35B1989A1BBEF47E00D3010A /* AppDelegate.swift in Sources */,
+				355C94E61BC329EE006C16BE /* SimulatorControllerButtonInput.swift in Sources */,
+				355C94E81BC329EE006C16BE /* SimulatorMicroGamepad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		354DBF4F1BC16AD50028827B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35B198951BBEF47E00D3010A /* AppleTVSimulatorController */;
+			targetProxy = 354DBF4E1BC16AD50028827B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		35B198A31BBEF47E00D3010A /* Main.storyboard */ = {
@@ -165,6 +291,31 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		354DBF501BC16AD50028827B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AppleTVSimulatorControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisgulley.AppleTVSimulatorControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleTVSimulatorController.app/AppleTVSimulatorController";
+			};
+			name = Debug;
+		};
+		354DBF511BC16AD50028827B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppleTVSimulatorControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisgulley.AppleTVSimulatorControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleTVSimulatorController.app/AppleTVSimulatorController";
+			};
+			name = Release;
+		};
 		35B198A91BBEF47E00D3010A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -273,6 +424,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		354DBF521BC16AD50028827B /* Build configuration list for PBXNativeTarget "AppleTVSimulatorControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354DBF501BC16AD50028827B /* Debug */,
+				354DBF511BC16AD50028827B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		35B198911BBEF47E00D3010A /* Build configuration list for PBXProject "AppleTVSimulatorController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -289,6 +449,7 @@
 				35B198AD1BBEF47E00D3010A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

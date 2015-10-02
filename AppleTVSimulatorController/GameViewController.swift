@@ -22,6 +22,8 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
 
         if let scene = SKScene(fileNamed: "GameScene") as? GameScene {
+            scene.size = self.view.bounds.size
+            
             // Configure the view.
             let skView = self.view as! SKView
             skView.showsFPS = true
@@ -44,14 +46,6 @@ class GameViewController: UIViewController {
             #endif
         }
     }
-
-    #if arch(i386) || arch(x86_64)
-    func createSimulatorController() -> SimulatorController {
-        let controller = SimulatorController()
-        controller.createGestureRecognizers().forEach { view.addGestureRecognizer($0) }
-        return controller
-    }
-    #endif
     
     func handleControllerDidConnectNotification(notification: NSNotification) {
         if let controller = notification.object as? GCController, scene = self.scene {
@@ -64,4 +58,34 @@ class GameViewController: UIViewController {
             scene.controller = nil
         }
     }
+    
+    // MARK: - Simulator methods
+    #if arch(i386) || arch(x86_64)
+    override func pressesBegan(presses: Set<UIPress>, withEvent event: UIPressesEvent?) {
+        if let controller = scene?.controller as? SimulatorController {
+            controller.pressesBegan(presses, withEvent: event)
+        }
+    }
+    
+    override func pressesChanged(presses: Set<UIPress>, withEvent event: UIPressesEvent?) {
+    }
+    
+    override func pressesCancelled(presses: Set<UIPress>, withEvent event: UIPressesEvent?) {
+        if let controller = scene?.controller as? SimulatorController {
+            controller.pressesCancelled(presses, withEvent: event)
+        }
+    }
+    
+    override func pressesEnded(presses: Set<UIPress>, withEvent event: UIPressesEvent?) {
+        if let controller = scene?.controller as? SimulatorController {
+            controller.pressesEnded(presses, withEvent: event)
+        }
+    }
+    
+    func createSimulatorController() -> SimulatorController {
+        let controller = SimulatorController()
+        controller.createGestureRecognizers().forEach { view.addGestureRecognizer($0) }
+        return controller
+    }
+    #endif
 }
