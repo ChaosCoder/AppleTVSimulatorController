@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35B1989A1BBEF47E00D3010A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B198991BBEF47E00D3010A /* AppDelegate.swift */; };
+		35B1989C1BBEF47E00D3010A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35B1989B1BBEF47E00D3010A /* GameScene.sks */; };
+		35B1989E1BBEF47E00D3010A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B1989D1BBEF47E00D3010A /* GameScene.swift */; };
+		35B198A01BBEF47E00D3010A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B1989F1BBEF47E00D3010A /* GameViewController.swift */; };
+		35B198A21BBEF47E00D3010A /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B198A11BBEF47E00D3010A /* Game.xcassets */; };
+		35B198A51BBEF47E00D3010A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B198A31BBEF47E00D3010A /* Main.storyboard */; };
+		35B198A71BBEF47E00D3010A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B198A61BBEF47E00D3010A /* Assets.xcassets */; };
+		35B198AF1BBEF4D200D3010A /* SimulatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B198AE1BBEF4D200D3010A /* SimulatorController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35B198961BBEF47E00D3010A /* AppleTVSimulatorController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTVSimulatorController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B198991BBEF47E00D3010A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35B1989B1BBEF47E00D3010A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		35B1989D1BBEF47E00D3010A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		35B1989F1BBEF47E00D3010A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		35B198A11BBEF47E00D3010A /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		35B198A41BBEF47E00D3010A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35B198A61BBEF47E00D3010A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35B198A81BBEF47E00D3010A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35B198AE1BBEF4D200D3010A /* SimulatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35B198931BBEF47E00D3010A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35B1988D1BBEF47E00D3010A = {
+			isa = PBXGroup;
+			children = (
+				35B198981BBEF47E00D3010A /* AppleTVSimulatorController */,
+				35B198971BBEF47E00D3010A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35B198971BBEF47E00D3010A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35B198961BBEF47E00D3010A /* AppleTVSimulatorController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35B198981BBEF47E00D3010A /* AppleTVSimulatorController */ = {
+			isa = PBXGroup;
+			children = (
+				35B198AE1BBEF4D200D3010A /* SimulatorController.swift */,
+				35B198991BBEF47E00D3010A /* AppDelegate.swift */,
+				35B1989B1BBEF47E00D3010A /* GameScene.sks */,
+				35B1989D1BBEF47E00D3010A /* GameScene.swift */,
+				35B1989F1BBEF47E00D3010A /* GameViewController.swift */,
+				35B198A11BBEF47E00D3010A /* Game.xcassets */,
+				35B198A31BBEF47E00D3010A /* Main.storyboard */,
+				35B198A61BBEF47E00D3010A /* Assets.xcassets */,
+				35B198A81BBEF47E00D3010A /* Info.plist */,
+			);
+			path = AppleTVSimulatorController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35B198951BBEF47E00D3010A /* AppleTVSimulatorController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B198AB1BBEF47E00D3010A /* Build configuration list for PBXNativeTarget "AppleTVSimulatorController" */;
+			buildPhases = (
+				35B198921BBEF47E00D3010A /* Sources */,
+				35B198931BBEF47E00D3010A /* Frameworks */,
+				35B198941BBEF47E00D3010A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleTVSimulatorController;
+			productName = AppleTVSimulatorController;
+			productReference = 35B198961BBEF47E00D3010A /* AppleTVSimulatorController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35B1988E1BBEF47E00D3010A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chris Gulley";
+				TargetAttributes = {
+					35B198951BBEF47E00D3010A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 35B198911BBEF47E00D3010A /* Build configuration list for PBXProject "AppleTVSimulatorController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35B1988D1BBEF47E00D3010A;
+			productRefGroup = 35B198971BBEF47E00D3010A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35B198951BBEF47E00D3010A /* AppleTVSimulatorController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35B198941BBEF47E00D3010A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B198A51BBEF47E00D3010A /* Main.storyboard in Resources */,
+				35B1989C1BBEF47E00D3010A /* GameScene.sks in Resources */,
+				35B198A71BBEF47E00D3010A /* Assets.xcassets in Resources */,
+				35B198A21BBEF47E00D3010A /* Game.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35B198921BBEF47E00D3010A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B198AF1BBEF4D200D3010A /* SimulatorController.swift in Sources */,
+				35B1989E1BBEF47E00D3010A /* GameScene.swift in Sources */,
+				35B198A01BBEF47E00D3010A /* GameViewController.swift in Sources */,
+				35B1989A1BBEF47E00D3010A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35B198A31BBEF47E00D3010A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35B198A41BBEF47E00D3010A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35B198A91BBEF47E00D3010A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		35B198AA1BBEF47E00D3010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35B198AC1BBEF47E00D3010A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AppleTVSimulatorController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisgulley.AppleTVSimulatorController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35B198AD1BBEF47E00D3010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AppleTVSimulatorController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisgulley.AppleTVSimulatorController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35B198911BBEF47E00D3010A /* Build configuration list for PBXProject "AppleTVSimulatorController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B198A91BBEF47E00D3010A /* Debug */,
+				35B198AA1BBEF47E00D3010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35B198AB1BBEF47E00D3010A /* Build configuration list for PBXNativeTarget "AppleTVSimulatorController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B198AC1BBEF47E00D3010A /* Debug */,
+				35B198AD1BBEF47E00D3010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35B1988E1BBEF47E00D3010A /* Project object */;
+}
