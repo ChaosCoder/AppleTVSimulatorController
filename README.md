@@ -16,9 +16,9 @@ Add the files in the Controller directory to your project. GameViewController.sw
 The controller depends on a few gesture recognizers that you'll need to add to your view.
 ```
 func createSimulatorController() -> SimulatorController {
-        let controller = SimulatorController()
-        controller.createGestureRecognizers().forEach { view.addGestureRecognizer($0) }
-        return controller
+    let controller = SimulatorController()
+    controller.createGestureRecognizers().forEach { view.addGestureRecognizer($0) }
+    return controller
 }
 ```
 ### Forward touch events
