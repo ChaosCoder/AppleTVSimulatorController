@@ -52,5 +52,6 @@ This is a work around to allow limited Game Controller testing with the Apple TV
 
 * GCController.handlerQueue: all callbacks are delivered on the same thread that feeds keyboard events and gestures to the controller
 * GCController.motion: returns nil
+
 ## License
 AppleTVSimulatorController is available under the MIT license. See the LICENSE file for more info.
