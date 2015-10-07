@@ -1,6 +1,6 @@
 # Apple TV Simulator Game Controller
 
-In tvOS the Apple TV remote can act as a game controller and is accessed through the Game Controller framework. As of Xcode 7.1 beta 2, though, the Game Controller framework is not supported in the Apple TV Simulator. This project provides a GCController implementation that will work with the simulator for testing. You can read more about its development at [Game Controller Support For Apple TV Simulator](http://http://iosdevstuff.blogspot.com/2015/10/game-controller-support-for-apple-tv.html).
+In tvOS the Apple TV remote can act as a game controller and is accessed through the Game Controller framework. As of Xcode 7.1 beta 2, though, the Game Controller framework is not supported in the Apple TV Simulator. This project provides a GCController implementation that will work with the simulator for testing. You can read more about its development at [Game Controller Support For Apple TV Simulator](http://iosdevstuff.blogspot.com/2015/10/game-controller-support-for-apple-tv.html).
 ## Usage
 Add the files in the Controller directory to your project. GameViewController.swift provides an example of how to integrate it. The following sections describe each step.
 ### Conditionally create controller
