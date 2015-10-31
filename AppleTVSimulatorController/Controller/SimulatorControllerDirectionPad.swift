@@ -18,6 +18,8 @@ public class SimulatorControllerDirectionPad: GCControllerDirectionPad {
     private let simulatorXAxis = SimulatorControllerAxisInput()
     private let simulatorYAxis = SimulatorControllerAxisInput()
     
+    private var simulatorValueChangedHandler: GCControllerDirectionPadValueChangedHandler?
+
     override init() {
         super.init()
         simulatorXAxis.dpad = self
@@ -58,6 +60,10 @@ public class SimulatorControllerDirectionPad: GCControllerDirectionPad {
         simulatorUp.buttonValue = (vector.dy > 0) ? Float(vector.dy) : 0
         simulatorDown.buttonValue = (vector.dy < 0) ? Float(abs(vector.dy)) : 0
         
+        if changed {
+            valueChangedHandler?(self, Float(vector.dx), Float(vector.dy))
+        }
+
         return changed
     }
 }
@@ -75,4 +81,12 @@ extension SimulatorControllerDirectionPad {
     override public var left: GCControllerButtonInput { return simulatorLeft }
     override public var right: GCControllerButtonInput { return simulatorRight }
     
+    override public var valueChangedHandler: GCControllerDirectionPadValueChangedHandler? {
+        get {
+            return simulatorValueChangedHandler
+        }
+        set {
+            simulatorValueChangedHandler = newValue
+        }
+    }
 }
